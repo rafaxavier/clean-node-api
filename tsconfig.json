@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        // onde sera gerando o JS
+        "outDir": "./dist",
+        // permitir o import e export ao inves do require
+        "module": "commonjs",
+        // versao do ECMAscript a ser gerada
+        "target": "ES2019",
+        "esModuleInterop": true,
+        "allowJs": true
+    }
+}
