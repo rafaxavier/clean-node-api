@@ -7,5 +7,5 @@ export interface AddAccountModel {
 }
 
 export interface AddAccount {
-  Add (account: AddAccountModel): AccountModel
+  add (account: AddAccountModel): AccountModel
 }
