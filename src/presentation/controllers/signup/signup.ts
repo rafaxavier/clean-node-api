@@ -30,7 +30,7 @@ export class SignUpController implements Controller {
         return badRequest(new InvalidParamError('email'))
       }
 
-      this.addAccount.Add({
+      this.addAccount.add({
         name,
         email,
         password
